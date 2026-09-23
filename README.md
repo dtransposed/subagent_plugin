@@ -4,6 +4,10 @@ A lightweight demonstration of using [Agent Plugins v1](https://agent-plugins.or
 to package a search subagent for easy maintenance, sharing across teams, and use across agent
 harnesses.
 
+## Demo
+
+https://github.com/user-attachments/assets/f550235d-9d16-44d5-8b85-13b7acf2ade1
+
 ## How it works
 
 1. Codex calls `search_codebase` with a question and an absolute workspace path.

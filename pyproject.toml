@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "local-code-search-agent"
+version = "0.1.0"
+description = "Read-only local code-search subagent exposed over MCP"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp>=2.0.0,<3",
+]
+
+[dependency-groups]
+dev = [
+  "ruff>=0.11",
+]
+
+[project.scripts]
+search-subagent = "search_subagent.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/search_subagent"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = [".plugin-data", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

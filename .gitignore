@@ -1,0 +1,6 @@
+.plugin-data/
+.ruff_cache/
+.venv/
+__pycache__/
+dist/
+*.py[cod]

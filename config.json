@@ -1,0 +1,9 @@
+{
+  "ollama_url": "http://127.0.0.1:11434",
+  "model": "qwen3:4b",
+  "max_steps": 8,
+  "max_results": 100,
+  "max_output_chars": 30000,
+  "max_file_bytes": 1000000,
+  "request_timeout_seconds": 120
+}

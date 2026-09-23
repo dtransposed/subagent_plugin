@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "local-code-search",
+  "version": "0.1.0",
+  "description": "Searches codebases with a local lightweight Ollama subagent.",
+  "author": {
+    "name": "Damian Bogunowicz",
+    "email": "damian.bogunowicz@jetbrains.com"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "local-code-search-dev",
+  "interface": {
+    "displayName": "Local Code Search Development"
+  },
+  "plugins": [
+    {
+      "name": "local-code-search",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

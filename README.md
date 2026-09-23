@@ -6,7 +6,7 @@ harnesses.
 
 ## Demo
 
-https://github.com/user-attachments/assets/f550235d-9d16-44d5-8b85-13b7acf2ade1
+https://github.com/user-attachments/assets/14bd520b-1e6e-417c-8f82-d66c16de6c38
 
 ## How it works
 

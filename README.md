@@ -100,7 +100,4 @@ The MCP definition stores uv's environment and download cache under the host-pro
 - `plugin.json`: Agent Plugins v1 metadata (part of the Agent Plugins v1 specification)
 - `src/search_subagent/`: MCP server implementation
 
-The `_search()` loop in `src/search_subagent/server.py` is similar to JetBrains'
-[AgenticSearchRunner.kt](https://github.com/JetBrains/jetbrains-ai-platform/blob/main/indexing/indexing-cli/src/main/kotlin/ai/grazie/indexing/code/cli/agentic/loop/AgenticSearchRunner.kt).
-
 
